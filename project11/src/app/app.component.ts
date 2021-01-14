@@ -28,7 +28,7 @@ export class AppComponent {
 
   addDet() {
     this.cards.push(new MyCard(this.inputId, this.inputName));
-    this.inputId = undefine;
+    this.inputId = undefined;
     this.inputName = '';
   }
 }
